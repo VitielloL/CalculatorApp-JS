@@ -104,3 +104,13 @@ body{
 .triple {
     flex-basis: 73%;
 }
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        margin: 0 5px 0 5px;
+    }
+
+    .screen {
+        width: 200px;
+    }
+}
